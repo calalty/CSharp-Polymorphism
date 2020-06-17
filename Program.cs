@@ -46,19 +46,24 @@ namespace Polymorphism
             numberOne = "333";
             numberTwo = "333";
 
+            Console.WriteLine("Addition of 2 Strings to Integer:");
             Console.WriteLine(Convert.ToInt32(numberOne) + Convert.ToInt32(numberTwo));
+            
         }
         public void Addition(string numberOne, int numberTwo)
         {
-         Console.WriteLine(Convert.ToInt32(numberOne) + Convert.ToInt32(numberTwo));
+            Console.WriteLine("Addition of a String and Integer to Integer:");
+            Console.WriteLine(Convert.ToInt32(numberOne) + Convert.ToInt32(numberTwo));
         }
         public void Addition(bool numberOne, float numberTwo)
         {
-         Console.WriteLine(Convert.ToDouble(numberOne) + Convert.ToDouble(numberTwo));
+            Console.WriteLine("Addition of Bool and Float to Decimal:");
+            Console.WriteLine(Convert.ToDouble(numberOne) + Convert.ToDouble(numberTwo));
         }
         public void Addition(decimal numberOne, decimal numberTwo)
         {
-         Console.WriteLine(Convert.ToSingle(numberOne) + Convert.ToSingle(numberTwo));
+            Console.WriteLine("Addition of 2 Decimals to Float:");
+            Console.WriteLine(Convert.ToSingle(numberOne) + Convert.ToSingle(numberTwo));
         }
     }
 
